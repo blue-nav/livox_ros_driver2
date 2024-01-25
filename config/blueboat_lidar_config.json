@@ -49,6 +49,7 @@
       "ip" : "192.168.1.100",
       "pcl_data_type" : 1,
       "pattern_mode" : 0,
+      "frame_id" : "livox_frame",
       "extrinsic_parameter" : {
         "roll": 0.0,
         "pitch": 0.0,
@@ -62,6 +63,7 @@
       "ip" : "192.168.1.123",
       "pcl_data_type" : 1,
       "pattern_mode" : 0,
+      "frame_id" : "livox_mid_rear",
       "extrinsic_parameter" : {
         "roll": 0.0,
         "pitch": 0.0,
@@ -75,6 +77,7 @@
       "ip" : "192.168.1.154",
       "pcl_data_type" : 1,
       "pattern_mode" : 0,
+      "frame_id" : "livox_mid_front",
       "extrinsic_parameter" : {
         "roll": 0.0,
         "pitch": 0.0,
@@ -88,6 +91,7 @@
       "ip" : "192.168.1.161",
       "pcl_data_type" : 1,
       "pattern_mode" : 0,
+      "frame_id" : "livox_mid_right",
       "extrinsic_parameter" : {
         "roll": 0.0,
         "pitch": 0.0,
@@ -101,6 +105,7 @@
       "ip" : "192.168.1.199",
       "pcl_data_type" : 1,
       "pattern_mode" : 0,
+      "frame_id" : "livox_mid_left",
       "extrinsic_parameter" : {
         "roll": 0.0,
         "pitch": 0.0,
