@@ -62,9 +62,6 @@ void LidarCommonCallback::LidarImuDataCallback(ImuData* imu_data, void *client_d
     printf("Lidar point cloud cb failed, client data is nullptr.\n");
     return;
   }
-
-  LdsLidar *lds_lidar = static_cast<LdsLidar *>(client_data);
-  lds_lidar->StorageImuData(imu_data);
 }
 
 } // namespace livox_ros
