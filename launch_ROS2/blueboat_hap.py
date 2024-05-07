@@ -34,7 +34,7 @@ def generate_launch_description():
     hap_livox_driver = Node(
         package='livox_ros_driver2',
         executable='livox_ros_driver2_node',
-        name='livox_lidar_publisher',
+        name='livox_lidar_hap_publisher',
         output='screen',
         parameters=hap_livox_ros2_params
         )
